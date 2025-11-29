@@ -1,0 +1,53 @@
+======================================================================
+VEDANTA REFERENCE DETECTION REPORT
+======================================================================
+
+Corpus: anthroposophy
+Files analyzed: 6
+Total references found: 26
+Unique terms found: 17
+
+
+MOST FREQUENTLY MENTIONED TERMS:
+----------------------------------------------------------------------
+  maya                           :    4 occurrences
+  karma                          :    3 occurrences
+  self-knowledge                 :    3 occurrences
+  gita                           :    2 occurrences
+  vedas                          :    2 occurrences
+  samadhi                        :    1 occurrences
+  krishna                        :    1 occurrences
+  vedanta                        :    1 occurrences
+  upanishads                     :    1 occurrences
+  yoga                           :    1 occurrences
+  bhagavad gita                  :    1 occurrences
+  moksha                         :    1 occurrences
+  atman                          :    1 occurrences
+  brahman                        :    1 occurrences
+  samsara                        :    1 occurrences
+  dharma                         :    1 occurrences
+  manas                          :    1 occurrences
+
+
+PER-FILE ANALYSIS:
+----------------------------------------------------------------------
+
+steiner_sample.txt
+  Total references: 14
+  Unique terms: 13
+  Top terms:
+    - gita: 2
+    - karma: 1
+    - samadhi: 1
+    - krishna: 1
+    - vedanta: 1
+
+steiner_spiritual_guidance.txt
+  Total references: 12
+  Unique terms: 5
+  Top terms:
+    - maya: 4
+    - self-knowledge: 3
+    - karma: 2
+    - vedas: 2
+    - manas: 1

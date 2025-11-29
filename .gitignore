@@ -31,11 +31,16 @@ ENV/
 .ipynb_checkpoints
 *.ipynb_checkpoints
 
-# Data files (large text corpora)
+# Data files (large text corpora - excluded to keep repo lightweight)
+# Users should run expand_corpus.py to download texts locally
 data/anthroposophy/*.txt
 data/vedanta/*.txt
 data/processed/**/*.txt
 data/processed/**/*.json
+
+# But keep sample texts for testing
+!data/anthroposophy/steiner_sample.txt
+!data/vedanta/bhagavad_gita_sample.txt
 
 # Keep directory structure but ignore contents
 !data/.gitkeep
@@ -43,9 +48,9 @@ data/processed/**/*.json
 !data/vedanta/.gitkeep
 !data/processed/.gitkeep
 
-# Results (optional - comment out if you want to track results)
-results/*.json
-results/*.txt
+# Track analysis results - these are lightweight and valuable for collaboration
+!results/vedanta_references_in_anthroposophy.json
+!results/vedanta_references_report.txt
 results/*.png
 results/*.pdf
 results/figures/

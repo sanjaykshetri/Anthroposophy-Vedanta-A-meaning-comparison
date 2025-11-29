@@ -1,0 +1,436 @@
+{
+  "corpus_name": "anthroposophy",
+  "num_files": 6,
+  "total_references": 26,
+  "unique_terms_across_corpus": 17,
+  "most_common_terms": [
+    [
+      "maya",
+      4
+    ],
+    [
+      "karma",
+      3
+    ],
+    [
+      "self-knowledge",
+      3
+    ],
+    [
+      "gita",
+      2
+    ],
+    [
+      "vedas",
+      2
+    ],
+    [
+      "samadhi",
+      1
+    ],
+    [
+      "krishna",
+      1
+    ],
+    [
+      "vedanta",
+      1
+    ],
+    [
+      "upanishads",
+      1
+    ],
+    [
+      "yoga",
+      1
+    ],
+    [
+      "bhagavad gita",
+      1
+    ],
+    [
+      "moksha",
+      1
+    ],
+    [
+      "atman",
+      1
+    ],
+    [
+      "brahman",
+      1
+    ],
+    [
+      "samsara",
+      1
+    ],
+    [
+      "dharma",
+      1
+    ],
+    [
+      "manas",
+      1
+    ]
+  ],
+  "file_analyses": [
+    {
+      "title": "steiner_christianity_mystical_fact.txt",
+      "total_references": 0,
+      "unique_terms": 0,
+      "categories": {
+        "texts": 0,
+        "figures": 0,
+        "concepts": 0,
+        "sanskrit_terms": 0
+      },
+      "term_frequencies": {},
+      "occurrences_by_category": {
+        "texts": [],
+        "figures": [],
+        "concepts": [],
+        "sanskrit_terms": []
+      },
+      "top_terms": []
+    },
+    {
+      "title": "steiner_goethes_weltanschauung.txt",
+      "total_references": 0,
+      "unique_terms": 0,
+      "categories": {
+        "texts": 0,
+        "figures": 0,
+        "concepts": 0,
+        "sanskrit_terms": 0
+      },
+      "term_frequencies": {},
+      "occurrences_by_category": {
+        "texts": [],
+        "figures": [],
+        "concepts": [],
+        "sanskrit_terms": []
+      },
+      "top_terms": []
+    },
+    {
+      "title": "steiner_sample.txt",
+      "total_references": 14,
+      "unique_terms": 13,
+      "categories": {
+        "texts": 4,
+        "figures": 1,
+        "concepts": 9,
+        "sanskrit_terms": 0
+      },
+      "term_frequencies": {
+        "gita": 2,
+        "karma": 1,
+        "samadhi": 1,
+        "krishna": 1,
+        "vedanta": 1,
+        "upanishads": 1,
+        "yoga": 1,
+        "bhagavad gita": 1,
+        "moksha": 1,
+        "atman": 1,
+        "brahman": 1,
+        "samsara": 1,
+        "dharma": 1
+      },
+      "occurrences_by_category": {
+        "texts": [
+          {
+            "term": "upanishads",
+            "position": 1324,
+            "matched_text": "upanishads",
+            "context": "l of spirit. Against these forces stands the Christ impulse, \nbringing love and unity.\n\nJust as the Upanishads speak of Atman and Brahman, we speak of the divine spark within \neach individual and its connection"
+          },
+          {
+            "term": "bhagavad gita",
+            "position": 739,
+            "matched_text": "bhagavad gita",
+            "context": "tiation leads to higher knowledge. Ancient wisdom traditions, including \nthe teachings found in the Bhagavad Gita and the Vedanta philosophy, recognized similar \ntruths about the nature of consciousness and the sp"
+          },
+          {
+            "term": "gita",
+            "position": 748,
+            "matched_text": "gita",
+            "context": "eads to higher knowledge. Ancient wisdom traditions, including \nthe teachings found in the Bhagavad Gita and the Vedanta philosophy, recognized similar \ntruths about the nature of consciousness and the sp"
+          },
+          {
+            "term": "gita",
+            "position": 1868,
+            "matched_text": "gita",
+            "context": "ond the ordinary waking state.\n\nAncient Indian wisdom, particularly the teachings of Krishna in the Gita, shares much \nwith anthroposophical understanding. The concept of dharma resonates with our underst"
+          }
+        ],
+        "figures": [
+          {
+            "term": "krishna",
+            "position": 1853,
+            "matched_text": "krishna",
+            "context": "nsciousness beyond the ordinary waking state.\n\nAncient Indian wisdom, particularly the teachings of Krishna in the Gita, shares much \nwith anthroposophical understanding. The concept of dharma resonates with"
+          }
+        ],
+        "concepts": [
+          {
+            "term": "karma",
+            "position": 883,
+            "matched_text": "karma",
+            "context": "cognized similar \ntruths about the nature of consciousness and the spiritual world.\n\nThe concept of karma and reincarnation are fundamental to understanding human destiny. \nLike the Eastern teachings of sa"
+          },
+          {
+            "term": "samadhi",
+            "position": 1728,
+            "matched_text": "samadhi",
+            "context": "gher spiritual realms. Through \nmeditation and inner development, one can achieve states similar to samadhi, experiencing \nconsciousness beyond the ordinary waking state.\n\nAncient Indian wisdom, particularly"
+          },
+          {
+            "term": "vedanta",
+            "position": 761,
+            "matched_text": "vedanta",
+            "context": "r knowledge. Ancient wisdom traditions, including \nthe teachings found in the Bhagavad Gita and the Vedanta philosophy, recognized similar \ntruths about the nature of consciousness and the spiritual world."
+          },
+          {
+            "term": "yoga",
+            "position": 1468,
+            "matched_text": "yoga",
+            "context": "eak of the divine spark within \neach individual and its connection to the cosmic whole. The path of yoga in Eastern \ntradition parallels our path of spiritual development through knowledge and devotion."
+          },
+          {
+            "term": "moksha",
+            "position": 998,
+            "matched_text": "moksha",
+            "context": "arnation are fundamental to understanding human destiny. \nLike the Eastern teachings of samsara and moksha, we recognize that the soul evolves \nthrough successive earthly lives. The higher self guides this"
+          },
+          {
+            "term": "atman",
+            "position": 1344,
+            "matched_text": "atman",
+            "context": "these forces stands the Christ impulse, \nbringing love and unity.\n\nJust as the Upanishads speak of Atman and Brahman, we speak of the divine spark within \neach individual and its connection to the cosmic"
+          },
+          {
+            "term": "brahman",
+            "position": 1354,
+            "matched_text": "brahman",
+            "context": "ces stands the Christ impulse, \nbringing love and unity.\n\nJust as the Upanishads speak of Atman and Brahman, we speak of the divine spark within \neach individual and its connection to the cosmic whole. The p"
+          },
+          {
+            "term": "samsara",
+            "position": 986,
+            "matched_text": "samsara",
+            "context": "ma and reincarnation are fundamental to understanding human destiny. \nLike the Eastern teachings of samsara and moksha, we recognize that the soul evolves \nthrough successive earthly lives. The higher self g"
+          },
+          {
+            "term": "dharma",
+            "position": 1939,
+            "matched_text": "dharma",
+            "context": "teachings of Krishna in the Gita, shares much \nwith anthroposophical understanding. The concept of dharma resonates with our understanding \nof cosmic order and human purpose."
+          }
+        ],
+        "sanskrit_terms": []
+      },
+      "top_terms": [
+        [
+          "gita",
+          2
+        ],
+        [
+          "karma",
+          1
+        ],
+        [
+          "samadhi",
+          1
+        ],
+        [
+          "krishna",
+          1
+        ],
+        [
+          "vedanta",
+          1
+        ],
+        [
+          "upanishads",
+          1
+        ],
+        [
+          "yoga",
+          1
+        ],
+        [
+          "bhagavad gita",
+          1
+        ],
+        [
+          "moksha",
+          1
+        ],
+        [
+          "atman",
+          1
+        ]
+      ]
+    },
+    {
+      "title": "steiner_threefold_commonwealth.txt",
+      "total_references": 0,
+      "unique_terms": 0,
+      "categories": {
+        "texts": 0,
+        "figures": 0,
+        "concepts": 0,
+        "sanskrit_terms": 0
+      },
+      "term_frequencies": {},
+      "occurrences_by_category": {
+        "texts": [],
+        "figures": [],
+        "concepts": [],
+        "sanskrit_terms": []
+      },
+      "top_terms": []
+    },
+    {
+      "title": "steiner_philosophy_of_freedom.txt",
+      "total_references": 0,
+      "unique_terms": 0,
+      "categories": {
+        "texts": 0,
+        "figures": 0,
+        "concepts": 0,
+        "sanskrit_terms": 0
+      },
+      "term_frequencies": {},
+      "occurrences_by_category": {
+        "texts": [],
+        "figures": [],
+        "concepts": [],
+        "sanskrit_terms": []
+      },
+      "top_terms": []
+    },
+    {
+      "title": "steiner_spiritual_guidance.txt",
+      "total_references": 12,
+      "unique_terms": 5,
+      "categories": {
+        "texts": 2,
+        "figures": 0,
+        "concepts": 9,
+        "sanskrit_terms": 1
+      },
+      "term_frequencies": {
+        "maya": 4,
+        "self-knowledge": 3,
+        "karma": 2,
+        "vedas": 2,
+        "manas": 1
+      },
+      "occurrences_by_category": {
+        "texts": [
+          {
+            "term": "vedas",
+            "position": 49653,
+            "matched_text": "vedas",
+            "context": "osing we know how to decipher the real\noccult records. These records are not the revelations of the Vedas,\nhowever much we may admire them. What the Indian holy teachers taught\nis of much earlier date than"
+          },
+          {
+            "term": "vedas",
+            "position": 49782,
+            "matched_text": "vedas",
+            "context": "mire them. What the Indian holy teachers taught\nis of much earlier date than the composition of the Vedas, and it is\nonly a feeble echo of their wisdom which lies before us in these mighty\nworks. But when"
+          }
+        ],
+        "figures": [],
+        "concepts": [
+          {
+            "term": "karma",
+            "position": 24023,
+            "matched_text": "karma",
+            "context": "e end of three years his body would\nnecessarily be shattered. Something would occur, through cosmic karma,\nwhich would prevent the spirit-being which would be in connection with\nhigher worlds, from living"
+          },
+          {
+            "term": "karma",
+            "position": 25234,
+            "matched_text": "karma",
+            "context": "earthly body? About three years. For at the end of that\ntime, something would arise through cosmic karma, which would destroy the\nhuman organism in question.\n\nWhat is here supposed is, however, a historic"
+          },
+          {
+            "term": "self-knowledge",
+            "position": 30306,
+            "matched_text": "self-knowledge",
+            "context": "is capable of opening\nthe doors of eternity. It sounds to man out of the depths of his soul, if\nhis self-knowledge is true and real.\n\nSuch reflections as these open up, in a double sense, the vision of the\nspiritua"
+          },
+          {
+            "term": "self-knowledge",
+            "position": 30514,
+            "matched_text": "self-knowledge",
+            "context": "iritual guidance of the individual and of collective humanity. As human\nbeings we are able, through self-knowledge, to find the Christ within us\nas the guide Whom, since His life on earth, we can always reach, beca"
+          },
+          {
+            "term": "self-knowledge",
+            "position": 36042,
+            "matched_text": "self-knowledge",
+            "context": "finds disciples,--a few people\nwho follow him. Such an one will soon become aware, through genuine\nself-knowledge, that the very fact of his finding disciples gives him\nthe feeling that what he has to say does not"
+          },
+          {
+            "term": "maya",
+            "position": 115949,
+            "matched_text": "maya",
+            "context": "itative. The modern physical scientists may indeed say:\n“It is madness to declare that the world is Maya, or illusion, and that\nyou must look into a spiritual world in order to see the truth, for in\nspite"
+          },
+          {
+            "term": "maya",
+            "position": 116713,
+            "matched_text": "maya",
+            "context": "so in opposition\nto what had been apparent to the senses. When Copernicus declared “what\nyou see is Maya--or deception, rely on what you cannot see,” then the\nscience came into being which is recognized a"
+          },
+          {
+            "term": "maya",
+            "position": 117313,
+            "matched_text": "maya",
+            "context": "ced there as the eighth sphere limiting everything in space--was\nin reality _no_ limitation; it was Maya, or illusion; for an infinite\nnumber of worlds had been poured forth into cosmic space. That which"
+          },
+          {
+            "term": "maya",
+            "position": 118659,
+            "matched_text": "maya",
+            "context": "ce by Giordano Bruno and others in that it says:\nthat which external science is able to perceive is Maya, or illusion.\nJust as formerly one looked to the “eighth sphere” and thought that space\nwas thereby"
+          }
+        ],
+        "sanskrit_terms": [
+          {
+            "term": "manas",
+            "position": 52581,
+            "matched_text": "manas",
+            "context": "indings in which the thinker\nis able to lose himself. The Orientals called man as a thinking being\n“Manas” and Manu stands for the first great thinker. The Greeks called\nthe first organizer of the human pr"
+          }
+        ]
+      },
+      "top_terms": [
+        [
+          "maya",
+          4
+        ],
+        [
+          "self-knowledge",
+          3
+        ],
+        [
+          "karma",
+          2
+        ],
+        [
+          "vedas",
+          2
+        ],
+        [
+          "manas",
+          1
+        ]
+      ]
+    }
+  ]
+}
