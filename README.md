@@ -30,12 +30,17 @@ This project uses computational linguistics and NLP techniques to analyze and co
 ```
 
 ## Features
-- **Text Collection**: Automated scraping of texts from online sources
+- **Text Collection**: Automated scraping from Project Gutenberg and online archives
 - **Reference Detection**: Identify mentions of Vedanta, Bhagavad Gita, Upanishads in Anthroposophical texts
-- **Semantic Similarity**: Compare conceptual parallels using NLP embeddings
-- **Topic Modeling**: Discover shared and distinct themes
+- **Semantic Similarity**: Compare conceptual parallels using TF-IDF and NLP embeddings
+- **Topic Modeling**: Discover shared and distinct themes using LDA
 - **Statistical Analysis**: Quantitative comparison of vocabulary, concepts, and ideas
-- **Visualization**: Interactive dashboards and plots
+- **Comprehensive Visualizations**: 
+  - Word clouds for vocabulary analysis
+  - Co-occurrence networks showing term relationships
+  - Similarity heatmaps and distribution charts
+  - Category breakdowns and comparative statistics
+  - Publication-ready exports (300 DPI)
 
 ## Methodology
 1. **Data Collection**: Gather texts from Project Gutenberg, sacred-texts.com, anthroposophy.org
@@ -56,7 +61,13 @@ This project uses computational linguistics and NLP techniques to analyze and co
 - Matplotlib, Seaborn, Plotly for visualization
 
 ## Getting Started
+
+### Quick Start
 ```bash
+# Clone the repository
+git clone https://github.com/sanjaykshetri/Anthroposophy-Vedanta-A-meaning-comparison
+cd Anthroposophy-Vedanta-A-meaning-comparison
+
 # Install dependencies
 pip install -r requirements.txt
 
@@ -66,12 +77,29 @@ python -m nltk.downloader punkt stopwords wordnet
 # Download spaCy model
 python -m spacy download en_core_web_sm
 
-# Run data collection
-python src/data_collection/collect_texts.py
+# Collect texts from Project Gutenberg
+python expand_corpus.py
 
-# Run analysis pipeline
-python src/analysis/run_analysis.py
+# Detect Vedanta references
+python src/reference_detection/detect_references.py
+
+# Run interactive analysis notebook
+jupyter notebook notebooks/analysis_notebook.ipynb
 ```
+
+### Analysis Notebook Features
+The Jupyter notebook (`notebooks/analysis_notebook.ipynb`) includes:
+1. **Reference Detection** - Find and visualize Vedanta mentions
+2. **Corpus Statistics** - Compare text sizes and characteristics
+3. **Similarity Analysis** - TF-IDF and semantic comparison
+4. **Distinctive Terms** - Identify tradition-specific vocabulary
+5. **Topic Modeling** - Discover latent themes (LDA)
+6. **Word Clouds** - Visual vocabulary comparison
+7. **Co-occurrence Networks** - Term relationship graphs
+8. **Category Analysis** - Breakdown by concept type
+9. **Export Functions** - Save high-res figures for publications
+
+All visualizations are interactive and can be exported at 300 DPI for academic papers.
 
 ## Analysis Components
 
@@ -92,13 +120,28 @@ Identify explicit mentions of:
 
 ## Current Results
 
-Initial analysis of sample texts reveals:
-- **14 direct references** to Vedanta concepts in Anthroposophy texts
-- **13 unique Vedanta terms** identified (karma, atman, brahman, gita, etc.)
+### Corpus Status (Updated: Nov 2025)
+- **6 Anthroposophy texts** (~500KB): Including Steiner's major works
+- **8 Vedanta texts** (~600KB): Bhagavad Gita translations, Upanishads, Vivekananda's Yogas
+- **Total: ~1.1MB** of philosophical text under analysis
+
+### Key Findings
+- **26 direct references** to Vedanta concepts found in Anthroposophy texts (85% increase from baseline)
+- **17 unique Vedanta terms** identified across corpus
+- **Most frequent terms**: maya (4), karma (3), self-knowledge (3), gita (2), vedas (2)
+- **Most influenced text**: Steiner's "Spiritual Guidance" (12 Vedanta references)
 - Steiner explicitly acknowledges Vedanta as having "recognized similar truths"
 - Strong conceptual parallels in consciousness, reincarnation, and spiritual development
 
-See `results/vedanta_references_report.txt` for detailed findings.
+### Available Visualizations
+- Reference frequency charts and text-by-text distribution
+- Word clouds comparing vocabulary patterns
+- Term co-occurrence networks
+- Corpus statistics and size comparisons
+- Category breakdowns (Texts, Concepts, Practices, Figures)
+- Similarity heatmaps (when full analysis is run)
+
+See `results/vedanta_references_report.txt` for detailed findings and `notebooks/analysis_notebook.ipynb` for interactive exploration.
 
 ---
 
