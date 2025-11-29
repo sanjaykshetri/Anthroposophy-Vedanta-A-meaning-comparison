@@ -1,0 +1,1 @@
+"""Initialize reference detection package."""

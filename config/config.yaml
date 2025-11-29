@@ -1,0 +1,75 @@
+# Configuration file for Anthroposophy-Vedanta comparison project
+
+# Data Collection Settings
+data_collection:
+  anthroposophy:
+    sources:
+      - name: "Project Gutenberg"
+        enabled: true
+      - name: "Rudolf Steiner Archive"
+        enabled: false  # Requires manual setup
+      - name: "Sacred Texts"
+        enabled: false
+    
+  vedanta:
+    sources:
+      - name: "Project Gutenberg"
+        enabled: true
+      - name: "Sacred Texts"
+        enabled: false
+    
+  rate_limit_seconds: 2
+  user_agent: "Mozilla/5.0 (Educational Research Bot)"
+
+# Text Preprocessing Settings
+preprocessing:
+  language: "english"
+  remove_stopwords: true
+  lemmatize: true
+  min_word_length: 2
+  remove_numbers: false
+  lowercase: true
+
+# Analysis Settings
+analysis:
+  tfidf:
+    max_features: 5000
+    ngram_range: [1, 2]
+    min_df: 2
+    max_df: 0.8
+  
+  topic_modeling:
+    n_topics: 10
+    max_iter: 20
+    
+  similarity:
+    window_size: 500  # characters for passage comparison
+    
+  embeddings:
+    model: "all-MiniLM-L6-v2"  # sentence-transformers model
+
+# Reference Detection Settings
+reference_detection:
+  context_chars: 100  # characters to capture around matches
+  case_sensitive: false
+
+# Output Settings
+output:
+  results_dir: "results"
+  figures_dir: "results/figures"
+  data_dir: "data"
+  processed_dir: "data/processed"
+  
+  save_formats:
+    - json
+    - txt
+  
+  visualization:
+    dpi: 300
+    figsize: [12, 10]
+    color_scheme: "YlOrRd"
+
+# Logging Settings
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
